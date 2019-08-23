@@ -5,8 +5,10 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<style>
-			body {
-  background-color: lightblue;
+			#grad1 {
+  height: 200px;
+  background-color: lightblue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, sky blue , light blue); /* Standard syntax (must be last) */
 }
   		 h1 {color: white;}
   		 p {color: grey;}
