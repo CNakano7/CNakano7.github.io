@@ -42,29 +42,76 @@ ul.posts li {
     list-style: none;
 }
 
+url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
 nav ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  list-style: none;
 }
 
 nav li {
-  float: left;
-  border-right:1px solid #bbb;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
 }
 
-nav li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
+nav a {
+  color: #444;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
-nav li a:hover {
-  background-color: #111;
-  border-right: none;
+nav a:hover {
+  color: #000;
 }
 
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
