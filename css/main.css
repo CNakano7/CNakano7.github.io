@@ -1,6 +1,7 @@
 body {
    margin: 60px auto;
    width: 70%;
+   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 nav ul, footer ul {
     font-family: "Comic Sans MS", cursive, sans-serif;
