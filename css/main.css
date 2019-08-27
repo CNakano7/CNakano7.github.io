@@ -65,7 +65,7 @@ nav li a:hover {
   background-color: #111;
 }
 
-body {
+.gradient {
   height: 400px;
   background: linear-gradient(to right, #33ccff 17%, #ff99cc 79%)
 }
