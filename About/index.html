@@ -24,19 +24,19 @@
 		
 <style>
 
-       .column {
+     /* Create two unequal columns that floats next to each other */
+.column {
   float: left;
   padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
-/* Left column */
-.column.side {
-  width: 100%;
+.left {
+  width: 25%;
 }
 
-/* Middle column */
-.column.middle {
-  width: 100%;
+.right {
+  width: 75%;
 }
 
 /* Clear floats after the columns */
@@ -45,7 +45,6 @@
   display: table;
   clear: both;
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
@@ -57,11 +56,11 @@
 
 
 <div class="row">
-  <div class="column side">
+  <div class="column left" style="background-color:#aaa;">
    <img src=>
   </div>
   
-  <div class="column middle">
+   <div class="column right" style="background-color:#bbb;">
     <h2>Learn more about who I am</h2>
 	  <hr>
    <p>My name is Christine Nakano, and I am currently a senior at James Campbell High School. I was born and raised in Honolulu, Hawaii and I am an only child. I am half-Japanese and half-Korean. I was raised in a Christian family and have been attending my current church for more than 10 years.<br> In my free time I enjoy sleeping, going on my computer, and listening to music. On my breaks or vacation, I enjoy travelling; many of it being part of mission trips. So far (including in the United States), I have been to Los Angeles, Texas, Seattle, Indonesia, Nepal, Korea, Netherlands, Greece, Rome, and Israel twice. From those trips, I have many stories to tell which you can see in my travel gallery.<br>For my future career, I want to do something on the lines of Biomedical Engineering or Molecular Biosciences and Biotechnology. I have always been interested in the medical field because my dad is a paramedic. I am also into the engineering field because I am interested in working with computers, coding, and building things.</p>   
