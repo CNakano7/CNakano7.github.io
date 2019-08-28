@@ -42,30 +42,6 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: lightcoral;
-}
-
-nav li {
-  float: left;
-    width: auto;
-}
-
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  background-color: lavender;
-}
 
 body {
   height: 400px;
@@ -130,4 +106,25 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+header {
+    background-color: lightpink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+header * {
+    display: inline;
+}
+header li{
+    margin: 80px
+}
+header li a{
+    color:white;
+    text-decoration: none;
+
 }
