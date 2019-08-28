@@ -116,7 +116,7 @@ header {
     height: 50px;
     display: flex;
     align-items: center;
-
+}
 header * {
     display: inline;
 }
@@ -124,6 +124,7 @@ header li{
     margin: 80px
 }
 header li a{
-    color:white;
+    color: white;
     text-decoration: none;
+
 }
