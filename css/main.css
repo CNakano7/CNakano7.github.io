@@ -51,7 +51,7 @@ body {
 div.gallery {
   margin: 10px;
   border: 1px solid #ccc;
-  float: none;
+  float: left;
   width: 500px;
 }
 
