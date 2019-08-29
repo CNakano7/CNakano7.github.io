@@ -127,9 +127,3 @@ header li a{
     color: white;
     text-decoration: none;
 }
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  header, body, .dropdown, {
-    width:100%;
-  }
-}
