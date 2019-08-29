@@ -51,8 +51,8 @@ body {
 div.gallery {
   margin: 10px;
   border: 1px solid #ccc;
-  float: left;
-  width: 350px;
+  float: none;
+  width: 500px;
 }
 
 div.gallery:hover {
