@@ -52,7 +52,7 @@ div.gallery {
   margin: 10px;
   border: 1px solid #ccc;
   float: left;
-  width: 500px;
+  width: 200px;
 }
 
 div.gallery:hover {
@@ -67,6 +67,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color: white;
 }
 
 li a, .dropbtn {
@@ -107,6 +108,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 header {
     background-color: lightpink;
     position: fixed;
@@ -114,7 +116,6 @@ header {
     left: 0;
     right: 0;
     height: 55px;
-    display: flex;
     align-items: center;
 }
 header * {
