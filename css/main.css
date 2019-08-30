@@ -86,10 +86,6 @@ div.desc {
   font-size: 18px;
 }
 
-.topnav .icon {
-  display: none;
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -152,7 +148,7 @@ div.desc {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .topnav.responsive {
     position: absolute;
     right: 0;
     top: 0;
