@@ -139,14 +139,9 @@ div.desc {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
-  .topnav a.icon {
-    float: right;
-    display: block;
-    padding-bottom: 19px
-  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive {
     position: absolute;
