@@ -1,6 +1,5 @@
 body {
-   margin: 60px auto;
-   width: 70%;
+   margin: 0 auto;
    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 nav ul, footer ul {
@@ -82,7 +81,7 @@ div.desc {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 55px;
+  padding: 14px 80px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -99,7 +98,7 @@ div.desc {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 55px;
+  padding: 14px 80px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -149,3 +148,14 @@ div.desc {
     display: none;
   }
 }
+/* Header/Logo Title */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 10px;
+}
+
+/* Page Content */
+.content {padding:0px; margin-left:100; margin-right:100;}
