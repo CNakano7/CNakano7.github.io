@@ -1,3 +1,4 @@
+/*Styles the webpage in general, such as the body margin, font, navigation bar, footer, headers, and paragraphs*/
 body {
    margin: 0 auto;
    font-family: "Comic Sans MS", cursive, sans-serif;
@@ -42,11 +43,13 @@ ul.posts li {
     list-style: none;
 }
 
+/*Styles the body of the webpage to have a linear-gradient of the colors summer sky and carnation pink in the right direction*/
 body {
   height: 400px;
   background: linear-gradient(to right, #33ccff 13%, #ff99cc 73%)
 }
 
+/*Styles the image gallery with the width of the picture shown being 450px with 15px padding/space to the right. It floats on the left side of the page*/
 div.gallery {
   margin: 10px;
   border: 1px solid #ccc;
@@ -149,7 +152,7 @@ div.desc {
     display: none;
   }
 }
-/* Header/Logo Title */
+/* Styles the Header/Logo Title with a lightblue background, white font, with a font-size of 10px */
 .header {
   padding: 0px;
   text-align: center;
@@ -158,5 +161,5 @@ div.desc {
   font-size: 10px;
 }
 
-/* Page Content */
+/* Styles the page content with padding and margin */
 .content {padding:0px; margin-left:100; margin-right:100;}
