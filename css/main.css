@@ -50,8 +50,8 @@ body {
 div.gallery {
   margin: 10px;
   border: 1px solid #ccc;
-  float: center;
-  width: 500px;
+  float: left;
+  width: 480px;
 }
 
 div.gallery:hover {
