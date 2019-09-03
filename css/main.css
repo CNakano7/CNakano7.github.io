@@ -55,7 +55,8 @@ div.gallery {
   margin: 10px;
   border: 1px solid #ccc;
   float: left;
-  width: 450px;
+  width: 480px;
+  align-items: center;
 }
 
 div.gallery:hover {
