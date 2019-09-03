@@ -1,4 +1,4 @@
-/*Styles the webpage in general, such as the body margin, font, navigation bar, footer, headers, and paragraphs*/
+/*Styles the webpage in general, such as the body margin, font, navigation bar, footer, headers, and paragraphs. Makes the body margin 0 and the font for the webpage to be Comic Sans MS for the heading and paragraph.*/
 body {
    margin: 0 auto;
    font-family: "Comic Sans MS", cursive, sans-serif;
@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     color: #999;
 }
+/*When something is hovered over by the cursor, there will be an underline*/
 a:hover {
     text-decoration: underline;
 }
@@ -65,7 +66,7 @@ div.gallery img {
   width: 100%;
   height: 100%;
 }
-
+/*Styles my image description to have a font color of white, padding around it to be 15px and to be aligned in the center*/
 div.desc {
   padding: 15px;
   text-align: center;
